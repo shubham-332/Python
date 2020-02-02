@@ -6,7 +6,7 @@ def admin1():
     c.execute("insert into adata(food_item,price) values('onion pizza',99)")
     c.execute("insert into adata(food_item,price) values('paneer pizza',110)")
     c.execute("insert into adata(food_item,price) values('capsicum pizza',80)")
-    c.execute("insert into adata(food_item,price) values('tomato pizza',90)")
+    c.execute("insert into adata(food_item,price) values('tomato pizza',90)"
     c.execute("insert into adata(food_item,price) values('cheese pizza',120)")
     db.commit()
     db.close()
